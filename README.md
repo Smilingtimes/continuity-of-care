@@ -34,6 +34,39 @@ start of a session:
 The files are plain Markdown. No app, no database, no vendor lock-in. Git gives
 you history; any text editor works.
 
+```mermaid
+flowchart TD
+    A[AGENTS.md<br>entry point: how to behave, what to read] --> B[ME.md<br>who the owner is]
+    A --> C[NOW.md<br>current priorities]
+    A --> D[START-HERE.md<br>project intake protocol]
+    D --> E[projects/X/PROJECT.md<br>verified project truth]
+    D --> F[projects/X/SKILLS.md<br>skills for this stage]
+    E --> G[SKILL-REGISTRY.md<br>how to choose skills]
+    F --> G
+    G --> H[(skill catalog:<br>yours, or the linked example)]
+    B -. optional depth .-> I[personal/]
+```
+
+## Who this is for (and who it isn't)
+
+**For:**
+
+- People who work with AI assistants across sessions and tools, and are tired
+  of re-explaining themselves every time.
+- Non-technical professionals — social workers, educators, organizers,
+  clinicians — who want AI continuity without building software.
+- Anyone running two or more projects with AI who keeps losing track of
+  decisions and status.
+
+**Not for:**
+
+- Anyone looking for an agent framework or automation platform — this is
+  documentation and process, not code that runs.
+- Teams needing permissions, sync, or multi-user editing — this is a
+  single-owner system by design.
+- Anyone wanting a turnkey "second brain" app — this is a practice you
+  maintain, not a product that maintains itself.
+
 ## Quick start
 
 1. Copy or clone this repository.
@@ -65,6 +98,20 @@ once. It grew in tiers — follow the same path:
 Ignore the rest until you feel the pain it solves. Files you don't need yet are
 a library, not homework.
 
+## Supported tools
+
+Anything that can read Markdown instructions works. How each common tool picks
+up the workspace (verified 2026-07; tool behavior changes fast, so check
+current docs):
+
+| Tool | How it picks up this workspace |
+|---|---|
+| Kimi Code | Reads `AGENTS.md` automatically on startup |
+| OpenAI Codex | Reads `AGENTS.md` natively |
+| Claude Code | Reads `AGENTS.md`; rename `CLAUDE.md.example` to `CLAUDE.md` for the thin-overlay pattern |
+| Cursor | Copy `AGENTS.md` into `.cursor/rules` or project rules |
+| ChatGPT | Paste `AGENTS.md` into project or custom instructions |
+
 ## Structure map
 
 | Path | Question it answers |
@@ -77,6 +124,7 @@ a library, not homework.
 | `SKILL-REGISTRY.md` | How do we choose which AI skills to use, and when? |
 | `CLAUDE.md.example` | How do platform-specific overlays stay thin? |
 | `templates/` | Blank `PROJECT.md` and `SKILLS.md` to copy per project |
+| `examples/` | A filled-in example project — what "done" looks like |
 | `personal/` | Optional deeper personal context — read on demand, never required |
 | `projects/` | One folder per project, each with its own `PROJECT.md` |
 | `skills/` | Locally installed skill packages (see its README) |
