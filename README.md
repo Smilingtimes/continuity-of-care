@@ -50,6 +50,21 @@ you history; any text editor works.
 6. Update files when reality changes. Date time-sensitive claims. Delete stale
    claims instead of letting versions conflict.
 
+## Start here if you're new
+
+This repo holds a complete system, but you are not meant to adopt it all at
+once. It grew in tiers — follow the same path:
+
+1. **Week one:** only three files matter — `ME.md`, `NOW.md`, and one
+   `PROJECT.md`. That alone gives an AI session continuity.
+2. **When you have two or three projects:** `START-HERE.md` and `PLAYBOOK.md`
+   start paying off.
+3. **When you catch yourself repeating instructions or collecting AI skills:**
+   then open `SKILL-REGISTRY.md` and make the catalog decision — not before.
+
+Ignore the rest until you feel the pain it solves. Files you don't need yet are
+a library, not homework.
+
 ## Structure map
 
 | Path | Question it answers |
@@ -78,6 +93,17 @@ boundaries essential:
   otherwise. Write only what is useful to share with an AI.
 - If you publish your workspace (like this template), sweep it for personal
   details first.
+
+## Grounded in a code of ethics
+
+Most AI workspace templates are organized around productivity. This one is
+organized around a duty of care. The durable principles in `AGENTS.md` are
+adapted from the six core values of the [NASW Code of
+Ethics](https://www.socialworkers.org/About/Ethics/Code-of-Ethics/Code-of-Ethics-English)
+— service, social justice, dignity and worth of the person, importance of
+human relationships, integrity, and competence — paraphrased for AI
+collaboration. From another profession, or none? Swap in your own code or
+values. The point is that values anchor the system, not any particular set.
 
 ## Why I built this
 

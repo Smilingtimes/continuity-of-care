@@ -6,6 +6,9 @@
 
 ## Purpose
 
+<!-- If your profession has a code of ethics, name it here as your anchor
+(for example, the NASW Code of Ethics for social workers). -->
+
 ## Values
 
 ## Philosophy and approach
