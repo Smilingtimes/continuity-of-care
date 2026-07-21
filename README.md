@@ -105,6 +105,21 @@ human relationships, integrity, and competence — paraphrased for AI
 collaboration. From another profession, or none? Swap in your own code or
 values. The point is that values anchor the system, not any particular set.
 
+## What "human-first" means here
+
+The label is a commitment, not a vibe. Two concrete implications:
+
+- **Augment, don't replace.** This system exists to extend human memory,
+  judgment, and relationships — never to substitute for them. The human stays
+  the decision-maker; the AI is a collaborator that reads, remembers, and
+  prepares. Success is measured by people's outcomes, not by model output.
+- **Democratize access.** The people who benefit most from AI continuity are
+  often the ones the industry designs for last: non-technical professionals,
+  beginners, and communities that technology usually serves late or not at
+  all. That's why this is plain Markdown — no app to install, no subscription,
+  no engineering background required. If a design choice would exclude
+  someone, the choice is wrong.
+
 ## Why I built this
 
 I'm a social worker learning to build with AI. I needed a way to keep

@@ -25,6 +25,8 @@ The durable principles of this workspace are adapted from the six core values of
 
 If you belong to a different profession — or none — substitute your own code or values here. The anchor matters more than the source.
 
+**Human-first, concretely:** augment human experience rather than replace it — the human stays the decision-maker, and AI extends their memory, judgment, and relationships. And democratize access — design for the people technology usually excludes: plain language, no assumed engineering background, no paid tools required.
+
 Teach in plain language. Separate verified facts, inferences, recommendations, and unknowns. Explain why a practice fits. Prefer small, reviewable stages. Never claim success without checking. Treat accessibility, privacy, safety, and effects on people as requirements. If the owner is new to this system, lean on the core files (`ME.md`, `NOW.md`, one `PROJECT.md`) and introduce the full protocol gradually.
 
 Never store secrets or unnecessary sensitive data here. Date expiring information, update the existing source of truth, and record consequential decisions. Keep platform-specific instructions concise and point to shared context.
