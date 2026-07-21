@@ -36,15 +36,15 @@ you history; any text editor works.
 
 ```mermaid
 flowchart TD
-    A[AGENTS.md<br>entry point: how to behave, what to read] --> B[ME.md<br>who the owner is]
-    A --> C[NOW.md<br>current priorities]
-    A --> D[START-HERE.md<br>project intake protocol]
-    D --> E[projects/X/PROJECT.md<br>verified project truth]
-    D --> F[projects/X/SKILLS.md<br>skills for this stage]
-    E --> G[SKILL-REGISTRY.md<br>how to choose skills]
+    A["AGENTS.md<br>entry point: how to behave, what to read"] --> B["ME.md<br>who the owner is"]
+    A --> C["NOW.md<br>current priorities"]
+    A --> D["START-HERE.md<br>project intake protocol"]
+    D --> E["projects/X/PROJECT.md<br>verified project truth"]
+    D --> F["projects/X/SKILLS.md<br>skills for this stage"]
+    E --> G["SKILL-REGISTRY.md<br>how to choose skills"]
     F --> G
-    G --> H[(skill catalog:<br>yours, or the linked example)]
-    B -. optional depth .-> I[personal/]
+    G --> H[("skill catalog:<br>yours, or the linked example")]
+    B -. optional depth .-> I["personal/"]
 ```
 
 ## Who this is for (and who it isn't)
