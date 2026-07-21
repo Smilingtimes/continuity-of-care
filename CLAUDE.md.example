@@ -1,0 +1,30 @@
+# Claude Code Overlay (example)
+
+Read `AGENTS.md` first — it is the source of truth for how to work in this
+workspace. This file adds only what is specific to Claude Code.
+
+**Durable principles never live here.** If something in this file reads like a
+principle, move it to `AGENTS.md`. Vendor files are Post-its; `AGENTS.md` is
+the entryway sign.
+
+## Skills verified installed in this Claude Code setup
+
+<!-- List only what you have verified in a live session, with the date.
+An entry here says nothing about other platforms (ChatGPT, Codex, Cursor...). -->
+
+- [Skill or plugin] — [what it provides] — verified YYYY-MM-DD.
+
+## Claude Code capabilities worth using here
+
+- **Plan mode and task tracking** — use for multi-stage work, consistent with
+  the playbook's small-stages principle.
+- **Persistent memory** — workspace truth still lives in these files, not in
+  the tool's memory; when they disagree, the files win.
+
+## Housekeeping
+
+- Per-project guidance belongs in that project's own overlay file, not here.
+- Keep this file thin. If it grows past a page, something in it probably
+  belongs in `AGENTS.md`, `SKILL-REGISTRY.md`, or a project file.
+
+Last verified: YYYY-MM-DD

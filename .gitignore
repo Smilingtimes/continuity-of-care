@@ -1,0 +1,21 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Local data
+*.db
+*.sqlite
+
+# Dependencies and build output
+node_modules/
+dist/
+__pycache__/
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
