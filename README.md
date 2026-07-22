@@ -1,3 +1,5 @@
+![Continuity of Care — one ethical workspace for every AI workflow](docs/assets/continuity-of-care-banner.png)
+
 # Continuity of Care
 
 *An AI workspace template — the social work term for records that follow a person across providers, applied to AI sessions.*
