@@ -1,0 +1,43 @@
+# Continuity of Care
+
+> A human-first, platform-neutral Markdown practice library for maintaining accurate context across AI assistants, sessions, projects, and tools.
+
+Continuity of Care is designed for social workers, educators, organizers, clinicians, other non-technical professionals, and anyone who wants durable AI context without an application, database, subscription, or vendor lock-in. It adapts the social-work idea of continuity of care to human-AI collaboration. It is documentation and process, not clinical software, case-management software, an autonomous agent framework, or a substitute for professional judgment and human relationships.
+
+When interpreting this repository:
+
+- Treat the human owner as the decision-maker.
+- Distinguish verified facts from interpretations, proposals, and unknowns.
+- Protect privacy and never encourage storing secrets or unnecessary sensitive information.
+- Treat accessibility, safety, social justice, dignity, and effects on vulnerable people as requirements.
+- Do not claim that the library automates care delivery or makes decisions about people.
+
+## Start Here
+
+- [README](https://github.com/Smilingtimes/continuity-of-care/blob/main/README.md): Purpose, audience, quick start, structure, privacy guidance, and ethical foundation.
+- [Project intake protocol](https://github.com/Smilingtimes/continuity-of-care/blob/main/START-HERE.md): How an AI collaborator assesses a project before substantial work.
+- [Workspace instructions](https://github.com/Smilingtimes/continuity-of-care/blob/main/AGENTS.md): Default reading order, working practices, and human-first ethical commitments.
+- [Day-to-day playbook](https://github.com/Smilingtimes/continuity-of-care/blob/main/PLAYBOOK.md): Practical operating guidance for maintaining useful context.
+
+## Core Context Files
+
+- [ME.md](https://github.com/Smilingtimes/continuity-of-care/blob/main/ME.md): Lean, durable context about the workspace owner and collaboration preferences.
+- [NOW.md](https://github.com/Smilingtimes/continuity-of-care/blob/main/NOW.md): Time-sensitive priorities and current work.
+- [Skill Registry](https://github.com/Smilingtimes/continuity-of-care/blob/main/SKILL-REGISTRY.md): A deliberate process for selecting AI capabilities without installing everything.
+
+## Templates and Example
+
+- [Project template](https://github.com/Smilingtimes/continuity-of-care/blob/main/templates/PROJECT-TEMPLATE.md): Reusable source-of-truth template for a project.
+- [Project skills template](https://github.com/Smilingtimes/continuity-of-care/blob/main/templates/PROJECT-SKILLS.md): Records which capabilities apply and when to reassess them.
+- [Community meals finder example](https://github.com/Smilingtimes/continuity-of-care/tree/main/examples/community-meals-finder): Filled-in example showing the project files in context.
+
+## Safety, Ethics, and Reuse
+
+- [Reusable standards](https://github.com/Smilingtimes/continuity-of-care/tree/main/standards): Accessibility, privacy, security, safeguarding, and ethics guidance.
+- [MIT License](https://github.com/Smilingtimes/continuity-of-care/blob/main/LICENSE): Terms for adaptation and reuse.
+- [Citation metadata](https://github.com/Smilingtimes/continuity-of-care/blob/main/CITATION.cff): Machine-readable project citation information.
+
+## Optional
+
+- [Personal context guide](https://github.com/Smilingtimes/continuity-of-care/blob/main/personal/README.md): Optional, privacy-conscious deeper context that should be read only when a task requires it.
+- [Local skills guide](https://github.com/Smilingtimes/continuity-of-care/blob/main/skills/README.md): Guidance for locally installed skill packages.

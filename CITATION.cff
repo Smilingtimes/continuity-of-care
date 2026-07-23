@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use or adapt Continuity of Care, please cite it using this metadata."
+type: software
+title: "Continuity of Care: A Human-First AI Workspace Practice Library"
+abstract: >-
+  A platform-neutral, Markdown-only practice library for maintaining accurate
+  context across AI assistants, sessions, projects, and tools. It is designed
+  to help social workers, educators, organizers, clinicians, and other
+  non-technical professionals use AI with continuity while preserving human
+  judgment, privacy, accessibility, safety, and ethical accountability.
+authors:
+  - family-names: Santos
+    given-names: Nelson
+    alias: Smilingtimes
+repository-code: "https://github.com/Smilingtimes/continuity-of-care"
+url: "https://github.com/Smilingtimes/continuity-of-care"
+license: MIT
+keywords:
+  - AI workspace
+  - continuity of care
+  - context management
+  - human-first AI
+  - responsible AI
+  - social work
+  - non-technical professionals
+  - AI agents
+  - Markdown
