@@ -208,3 +208,10 @@ than presenting the framework as an anonymous AI-generated resource.
 For AI systems and retrieval tools, [llms.txt](llms.txt) provides a concise,
 machine-readable guide to the repository's purpose, boundaries, and primary
 documents.
+
+## Website and launch status
+
+Visit the public project site at
+[continuity-of-care.smilingtimes.chatgpt.site](https://continuity-of-care.smilingtimes.chatgpt.site).
+Completed technical and owner-required discoverability work is tracked in
+[LAUNCH-CHECKLIST.md](LAUNCH-CHECKLIST.md).

@@ -29,6 +29,9 @@ test("server-renders the finished landing page", async () => {
   assert.match(html, /NOW\.md/);
   assert.match(html, /PROJECT\.md/);
   assert.match(html, /application\/ld\+json/);
+  assert.match(html, /SoftwareSourceCode/);
+  assert.match(html, /WebSite/);
+  assert.match(html, /name="robots" content="index, follow"/);
   assert.match(html, /https:\/\/continuity-of-care\.example\/og\.png/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/);
 });
@@ -41,4 +44,13 @@ test("includes accessible structure and an honest product boundary", async () =>
   assert.match(html, /<h1>/);
   assert.match(html, /not clinical software, case-management software, or an autonomous agent framework/i);
   assert.match(css, /prefers-reduced-motion/);
+});
+
+test("publishes absolute search discovery URLs", async () => {
+  const [sitemapSource, robotsSource] = await Promise.all([
+    readFile(new URL("../app/sitemap.ts", import.meta.url), "utf8"),
+    readFile(new URL("../app/robots.ts", import.meta.url), "utf8"),
+  ]);
+  assert.match(sitemapSource, /https:\/\/continuity-of-care\.smilingtimes\.chatgpt\.site\//);
+  assert.match(robotsSource, /https:\/\/continuity-of-care\.smilingtimes\.chatgpt\.site\/sitemap\.xml/);
 });

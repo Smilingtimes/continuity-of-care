@@ -1,5 +1,6 @@
 const repoUrl = "https://github.com/Smilingtimes/continuity-of-care";
 const templateUrl = "https://github.com/Smilingtimes/continuity-of-care/generate";
+const siteUrl = "https://continuity-of-care.smilingtimes.chatgpt.site";
 
 const values = [
   ["Service", "Use AI to support real people and communities—not merely speed or output."],
@@ -13,15 +14,40 @@ const values = [
 export default function Home() {
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "SoftwareSourceCode",
-    name: "Continuity of Care",
-    description:
-      "A human-first, platform-neutral Markdown practice library for maintaining accurate context across AI assistants, sessions, projects, and tools.",
-    codeRepository: repoUrl,
-    license: "https://opensource.org/license/mit",
-    author: { "@type": "Person", name: "Nelson Santos" },
-    programmingLanguage: "Markdown",
-    keywords: "human-first AI, continuity of care, context management, social work, responsible AI",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": `${siteUrl}/#website`,
+        url: siteUrl,
+        name: "Continuity of Care",
+        description: "A human-first AI workspace in plain Markdown.",
+        inLanguage: "en-US",
+        creator: { "@id": `${siteUrl}/#creator` },
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "@id": `${siteUrl}/#project`,
+        name: "Continuity of Care",
+        url: siteUrl,
+        description:
+          "A human-first, platform-neutral Markdown practice library for maintaining accurate context across AI assistants, sessions, projects, and tools.",
+        codeRepository: repoUrl,
+        license: "https://opensource.org/license/mit",
+        author: { "@id": `${siteUrl}/#creator` },
+        programmingLanguage: "Markdown",
+        runtimePlatform: "Any AI assistant or tool that can read Markdown",
+        isAccessibleForFree: true,
+        dateCreated: "2026-07-21",
+        dateModified: "2026-07-22",
+        keywords: ["human-first AI", "continuity of care", "context management", "social work", "responsible AI"],
+      },
+      {
+        "@type": "Person",
+        "@id": `${siteUrl}/#creator`,
+        name: "Nelson Santos",
+        url: "https://github.com/Smilingtimes",
+      },
+    ],
   };
 
   return (
