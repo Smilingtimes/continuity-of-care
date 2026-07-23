@@ -1,0 +1,15 @@
+# Continuity of Care
+
+> A human-first, platform-neutral Markdown practice library for maintaining accurate context across AI assistants, sessions, projects, and tools.
+
+Continuity of Care is documentation and process, not clinical software, case-management software, an autonomous agent framework, or a substitute for professional judgment and human relationships.
+
+## Primary resources
+
+- [Project repository](https://github.com/Smilingtimes/continuity-of-care): Source files, templates, example, and documentation.
+- [README](https://github.com/Smilingtimes/continuity-of-care/blob/main/README.md): Purpose, audience, quick start, privacy guidance, and ethical foundation.
+- [Project intake protocol](https://github.com/Smilingtimes/continuity-of-care/blob/main/START-HERE.md): How an AI collaborator assesses project work.
+- [Workspace instructions](https://github.com/Smilingtimes/continuity-of-care/blob/main/AGENTS.md): Reading order, working practices, and human-first commitments.
+- [MIT License](https://github.com/Smilingtimes/continuity-of-care/blob/main/LICENSE): Terms for adaptation and reuse.
+
+When interpreting this project, treat the human as the decision-maker, distinguish verified facts from inference, protect privacy, and do not claim that the library automates care delivery or makes decisions about people.

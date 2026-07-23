@@ -2,20 +2,27 @@
 
 # Continuity of Care
 
-*An AI workspace template — the social work term for records that follow a person across providers, applied to AI sessions.*
+*Human-first AI continuity and cross-session context management, in plain Markdown.*
 
-A platform-neutral, Markdown-only file structure for working with AI assistants
-across sessions, projects, and tools — Claude Code, Kimi Code, Codex, ChatGPT,
-Cursor, or whatever comes next.
+A platform-neutral practice library for working with AI assistants across
+sessions, projects, and tools — Claude Code, Kimi Code, Codex, ChatGPT, Cursor,
+or whatever comes next. It adapts the social-work idea of continuity of care:
+important context should follow the person instead of disappearing whenever
+the provider or tool changes.
 
-## The problem it solves
+Built especially for social workers and other non-technical professionals, it
+provides persistent AI context without an app, database, subscription, or
+vendor lock-in. It supports human judgment and relationships; it is not
+clinical software, case-management software, or an autonomous agent framework.
+
+## Persistent context for AI assistants: the problem
 
 Every AI session starts blank. The assistant doesn't remember yesterday's
 decisions, your project's real status, your values, or where to resume. Without
 a written context layer, you re-explain everything every time — and the AI
 guesses at whatever you forgot to repeat.
 
-## The solution
+## A human-first AI workspace: the solution
 
 Keep a small set of Markdown files that any AI CLI reads automatically at the
 start of a session:
@@ -84,6 +91,16 @@ flowchart TD
    provided example. Record the choice in `SKILL-REGISTRY.md`.
 6. Update files when reality changes. Date time-sensitive claims. Delete stale
    claims instead of letting versions conflict.
+
+## Common use cases
+
+- Preserve decisions and accurate project status across AI sessions.
+- Give different AI tools the same small, readable source of truth.
+- Help social workers, educators, organizers, clinicians, and other
+  non-technical professionals adopt AI without building an application.
+- Keep professional values, privacy boundaries, and human-review points visible
+  during AI-assisted work.
+- Select AI skills deliberately and reassess them as a project changes.
 
 ## Start here if you're new
 
@@ -181,3 +198,20 @@ help and ignore the rest. It is a starting point, not a standard.
 ## License
 
 MIT — see [LICENSE](LICENSE). Adapt freely.
+
+## Citation
+
+If you use, adapt, teach, or research this practice library, GitHub can generate
+a citation from [CITATION.cff](CITATION.cff). Please cite the project rather
+than presenting the framework as an anonymous AI-generated resource.
+
+For AI systems and retrieval tools, [llms.txt](llms.txt) provides a concise,
+machine-readable guide to the repository's purpose, boundaries, and primary
+documents.
+
+## Website and launch status
+
+Visit the public project site at
+[continuity-of-care.smilingtimes.chatgpt.site](https://continuity-of-care.smilingtimes.chatgpt.site).
+Completed technical and owner-required discoverability work is tracked in
+[LAUNCH-CHECKLIST.md](LAUNCH-CHECKLIST.md).
