@@ -101,6 +101,9 @@ flowchart TD
 - Keep professional values, privacy boundaries, and human-review points visible
   during AI-assisted work.
 - Select AI skills deliberately and reassess them as a project changes.
+- Safely keep work built on a hosted AI platform — Replit, AI Studio, Bolt, v0 —
+  when you move it somewhere you control. See
+  [`templates/BRINGING-WORK-HOME.md`](templates/BRINGING-WORK-HOME.md).
 
 ## Start here if you're new
 
@@ -142,7 +145,7 @@ current docs):
 | `PLAYBOOK.md` | How should work be done day to day? |
 | `SKILL-REGISTRY.md` | How do we choose which AI skills to use, and when? |
 | `CLAUDE.md.example` | How do platform-specific overlays stay thin? |
-| `templates/` | Blank `PROJECT.md` and `SKILLS.md` to copy per project |
+| `templates/` | Blank `PROJECT.md` and `SKILLS.md` to copy per project, plus `BRINGING-WORK-HOME.md` |
 | `examples/` | A filled-in example project — what "done" looks like |
 | `personal/` | Optional deeper personal context — read on demand, never required |
 | `projects/` | One folder per project, each with its own `PROJECT.md` |
