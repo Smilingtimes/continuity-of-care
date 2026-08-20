@@ -118,7 +118,25 @@ Three things, and the second one is the one people skip:
 
 Overstating a project's status is the fastest way to lose someone's trust.
 
-### 7. Decide who can see it, on purpose
+### 7. Write yourself a project status page
+
+The README from step 6 is for other people. This step is for you — and for any AI helping you
+with this project later. A README is a summary; this is your working notes, and it's not
+optional. A project isn't really "brought home" without it.
+
+**What to do:** copy `templates/PROJECT-TEMPLATE.md` into the project as `PROJECT.md` and fill
+it in from what you actually see in the project — not from memory, not by guessing. If you
+found something in Part 1 (a leaked key, a fragile dependency), write it down here too, plainly.
+Mark anything you're unsure about as "unknown" rather than inventing an answer that sounds right.
+
+**Why it matters:** without this, every time you or an AI comes back to this project, you start
+over — rediscovering what it does, what's broken, what's already been decided. That's slow, and
+it's how the same mistake gets made twice. If this project's notes ever end up living somewhere
+else — a separate planning document, a different folder — say so here and point to it, instead
+of leaving this page blank; a blank page reads as "nobody ever looked," which is a worse
+mistake than a short one that just points elsewhere.
+
+### 8. Decide who can see it, on purpose
 
 Public or private should be a decision, not whatever the platform picked. Ask: *if someone I
 did not expect found this, who could be affected?*
@@ -127,7 +145,7 @@ For anything touching health, education, community members, or people's personal
 circumstances, the answer usually points to private — and to a conversation about consent
 before that ever changes.
 
-### 8. Add it to your project list
+### 9. Add it to your project list
 
 One line in a single file listing everything you have built: what it is, where it lives, its
 real status, and the date you last checked. Without it, the list lives in your memory, and

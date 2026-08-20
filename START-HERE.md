@@ -16,6 +16,10 @@ Read, in this order:
 
 For a new idea, interview the owner and create `PROJECT.md` from `templates/PROJECT-TEMPLATE.md` before selecting an implementation approach.
 
+For a project arriving from a hosted AI platform (Replit, AI Studio, Bolt, Lovable, v0, Figma Make), run `templates/BRINGING-WORK-HOME.md` first. That checklist covers safety, preservation, *and* writing `PROJECT.md` (its step 7) — this protocol covers the work itself.
+
+For a named project already here whose `PROJECT.md` you can't find: check whether its notes live somewhere else instead (a separate planning document, a different folder) before assuming none exists. If genuinely no `PROJECT.md` exists anywhere, that project was never fully brought home — create one now, from actually looking at the project, not from what you remember about it, marking unknowns per the template. Don't move on to step 2 assuming a document that isn't there.
+
 ## 2. Inspect reality
 
 Inspect the actual repository, configuration, tests, documentation, and—when accessible—the current deployment. Identify:

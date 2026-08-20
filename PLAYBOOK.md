@@ -26,8 +26,9 @@ Read `ME.md` for the owner's durable personal context. Personal context belongs 
 - **Accessibility by design:** include disabled people from the beginning.
 - **Human-centered practice:** judge success by people's outcomes, not only software output.
 
-## Three prompts
+## Four prompts
 
 - New: “Interview me and create `PROJECT.md` using `templates/PROJECT-TEMPLATE.md`. Mark unknowns; do not implement.”
+- Adopt: “Run `templates/BRINGING-WORK-HOME.md` for [project], including its PROJECT.md step, before treating it as brought home.” Use this for anything arriving from a hosted AI platform — the path most projects in a real workspace actually take, and one `START-HERE.md`/`AGENTS.md` alone won't reliably route you to.
 - Existing: “Read `START-HERE.md` and conduct intake for: [request].”
 - Finish: “Update project context and decisions; explain changes, verification, and what I should remember.”
